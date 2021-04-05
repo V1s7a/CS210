@@ -1,0 +1,82 @@
+// *** file header example *** //
+/** labXX.c
+* ===========================================================
+* Name: Name, Date
+* Section:
+* Project: 
+* Purpose: 
+* ===========================================================
+*/
+
+
+// *** function header example *** //
+/**   ----------------------------------------------------------
+* @fn  
+* @brief <high level description of purpose of the function>
+* @param <explanation of each of the function parameters>
+* @return <explanation of what the function returns>
+*/ 
+
+
+// *** header file guard example *** //
+#ifndef LAB10FUNCTS_H
+#define LAB10FUNCTS_H
+
+// Function prototypes, constants, etc go here...
+
+#endif //LAB10FUNCTS_H
+
+
+
+// *** tasks.json *** //
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "cl.exe",
+            "args": [
+                "/W4",
+                "/Zi",
+                "/EHsc",
+                "/Fe:",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${workspaceFolder}\\*.c"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
+
+// *** launch.json *** //
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cl.exe - Build and debug active file",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "preLaunchTask": "build"
+        }
+    ]
+}

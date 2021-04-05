@@ -1,0 +1,7 @@
+﻿  pex3functs.c
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\PEX 3\PEX 3\pex3functs.c(72,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\PEX 3\PEX 3\pex3functs.c(109,21): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\PEX 3\PEX 3\pex3functs.c(132,21): warning C4018: '>=': signed/unsigned mismatch
+  pex3main.c
+  Generating Code...
+  PEX 3.vcxproj -> C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\PEX 3\Debug\PEX 3.exe

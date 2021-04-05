@@ -1,0 +1,12 @@
+﻿  lab28.c
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(86,30): warning C4047: 'function': 'char *' differs in levels of indirection from 'char'
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(86,22): warning C4024: 'readFile': different types for formal and actual parameter 1
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(86,44): warning C4047: 'function': 'EmployeeBD *' differs in levels of indirection from 'EmployeeBD *[20]'
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(86,32): warning C4024: 'readFile': different types for formal and actual parameter 2
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(87,21): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(88,21): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(89,31): warning C4047: 'function': 'EmployeeBD *' differs in levels of indirection from 'EmployeeBD *(*)[20]'
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(89,18): warning C4024: 'IDEmpBDMonth': different types for formal and actual parameter 1
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(85,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'char [18]'
+C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\CS210\lab28.c(123,23): warning C4018: '<': signed/unsigned mismatch
+  CS210.vcxproj -> C:\Users\cdwil\OneDrive - afacademy.af.edu\CS210\Debug\CS210.exe
